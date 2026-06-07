@@ -1,0 +1,48 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+:root {
+    --primary: #4a6cf7;
+    --bg: #f8f9fa;
+    --dark: #2c3e50;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg);
+    color: var(--dark);
+    line-height: 1.6;
+}
+
+/* Modern Card Design */
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    padding: 20px;
+    background: white;
+}
+
+/* Table Modern */
+.table {
+    border-collapse: separate;
+    border-spacing: 0 8px;
+}
+
+.table tr {
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+    border-radius: 10px;
+}
+
+/* Button Modern */
+.btn-primary {
+    background-color: var(--primary) !important;
+    border-radius: 8px;
+    padding: 8px 20px;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #3551c0 !important;
+}
